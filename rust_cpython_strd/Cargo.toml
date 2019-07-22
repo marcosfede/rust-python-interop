@@ -1,0 +1,16 @@
+[package]
+name = "rust_cpython_strd"
+version = "0.1.0"
+authors = ["Federico Marcos <federico.marcos@celerative.com>"]
+edition = "2018"
+
+[lib]
+name = "rust_cpython_strd"
+crate-type = ["dylib"]
+
+[dependencies.cpython]
+version = "0.1"
+features = ["extension-module"]
+
+[dependencies]
+levenshtein = "1.0.4"

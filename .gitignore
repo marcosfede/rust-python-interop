@@ -1,0 +1,6 @@
+pyo3_strd/target
+rust_cpython_strd/target
+**/*.rs.bk
+Cargo.lock
+*.so
+.vscode
